@@ -1,0 +1,23 @@
+class Animal():
+    tail = 1
+    paw = 4
+    wool = True
+
+class Dog(Animal):
+    def say_something(self):
+        return "Woof - Woof"
+
+class Cat(Animal):
+    def say_something(self):
+        return "Meow - meow"
+
+class SphynxCat(Cat):
+    wool = False
+    def say_something(self):
+        return "Murr-Murr"
+
+class Rooster(Animal):
+    paw = 2
+    wool = False
+    def say_something(self):
+        return "Cocorico"
